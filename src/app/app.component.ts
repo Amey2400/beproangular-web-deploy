@@ -18,6 +18,7 @@ export class AppComponent{
   plty: [] = [];
   dicty: {} = {};
   current_operation: string = '';
+  title: any;
   constructor(public api: ApiService) { }
   
   sendData = () => {
